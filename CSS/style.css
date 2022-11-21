@@ -33,12 +33,11 @@ main{
     
 
     grid-template-areas: 
-        "cajaI cajaP"
-        "cajaI cajaP"
-        "cajaI cajaP"
-        "cajaI cajaP";
-
-  }
+        "cajaA cajaB"
+        "cajaC cajaD"
+        "cajaE cajaF"
+        "cajaG cajaH";
+}
 
 
 
@@ -59,5 +58,99 @@ main{
     width: 30rem;
 }
 
+.footer{
+    background-color: rgb(172, 81, 172);
+}
+.footer1{
+    background-color:  rgb(185, 9, 9);
+}
+.footer3{
+    background-color: rgb(219, 223, 14);
+}
+
+.redes{
+    
+    display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+}
+
+.insta{
+    width: 4rem;
+}
+.face{
+    width: 4rem;
+}
+.whats{
+    width: 4rem;
+}
+
+@media only screen and (max-width:500px){
+     
+    .historia{
+        text-align: center;
+     }
+    
+main{
+    display: grid;
+    grid-template-columns: 1fr 
+    grid-template-rows: repeat(8, 1fr) ;
+    gap: 1rem;
+    
+
+    grid-template-areas: 
+        "cajaA"
+        "cajaB"
+        "cajaC"
+        "cajaD"
+        "cajaE"
+        "cajaF"
+        "cajaG"
+        "cajaH" 
+        ;
+}
+
+     .barman{
+        align-content: center;
+        width: 16rem;
+        border: 1px white solid;
+     }
+
+     .uptown{
+        align-content: center;
+        width: 16rem;
+        border: 1px white solid;
+     }
+
+     .tresm{
+        align-content: center;
+        width: 16rem;
+        border: 1px white solid;
+     }
+
+     .presidente{
+        align-content: center;
+        width: 16rem;
+        border: 1px white solid;
+     }
+
+     .parrafo{
+        text-align: center;
+     }
 
 
+     
+}
+
+
+.fernet{
+    width: 32rem;
+}
+
+.gin{
+    width: 32rem;
+}
+
+.caipi{
+    width: 32rem;
+}
