@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar .logo{
+   margin: 1;
+   padding: 1;
+   width: 6rem;
+}
+
+ a:hover{
+    background-color: white;
+}
+
+.caja{
+    width: 15rem;
+}
+
+.titulo{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    gap: 1rem;
+    
+
+    grid-template-areas: 
+        "cajaI cajaP"
+        "cajaI cajaP"
+        "cajaI cajaP"
+        "cajaI cajaP";
+
+  }
+
+
+
+
+.barman{
+    width: 20rem;
+}
+
+.uptown{
+    width: 30rem;
+}
+
+.presidente{
+    width: 30rem;
+}
+
+.tresm{
+    width: 30rem;
+}
+
+
+
