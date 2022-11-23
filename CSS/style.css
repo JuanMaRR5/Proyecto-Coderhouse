@@ -23,7 +23,8 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-main{
+.main{
+     
     background-color: black;
     color: white;
     display: grid;
@@ -39,7 +40,11 @@ main{
         "cajaG cajaH";
 }
 
-
+main{
+    background-color: black;
+    
+    color: white;
+}
 
 
 .barman{
@@ -58,14 +63,24 @@ main{
     width: 30rem;
 }
 
+
 .footer{
     background-color: rgb(172, 81, 172);
 }
+
 .footer1{
     background-color:  rgb(185, 9, 9);
 }
+
+.footer2{
+    background-color: rgb(28, 207, 11);
+}
+
 .footer3{
     background-color: rgb(219, 223, 14);
+}
+.footer4{
+    background-color: rgb(25, 61, 221);
 }
 
 .redes{
@@ -79,10 +94,63 @@ main{
     width: 4rem;
 }
 .face{
-    width: 4rem;
+    width: 5rem;
 }
 .whats{
-    width: 4rem;
+    width: 5rem;
+}
+
+.fernet{
+    width: 32rem;
+}
+
+.gin{
+    width: 32rem;
+}
+
+.caipi{
+    width: 32rem;
+}
+
+.coctel1{
+    width: 28rem;
+    height: auto;
+    
+}
+
+.coctel2{
+    width: 45rem;
+}
+
+
+
+.ale{
+    width: 32rem;
+   margin: 2%;
+}
+
+.ipa{
+    width: 32rem;
+    margin: 2%;
+}
+
+.pcerveza {
+    margin: 1.5%;
+    
+}
+
+.form{
+    text-align: left;
+}
+
+.rango{
+    width: 28rem;
+}
+
+button:hover{
+    width: 8rem;
+    color: white;
+    background-color: blue;
 }
 
 @media only screen and (max-width:500px){
@@ -138,19 +206,18 @@ main{
         text-align: center;
      }
 
+.form{
+    text-align: center;
+    padding: 3%;
+   
+}
 
+   .rango{
+    width: 20rem;
+   }
      
 }
 
 
-.fernet{
-    width: 32rem;
-}
 
-.gin{
-    width: 32rem;
-}
 
-.caipi{
-    width: 32rem;
-}
