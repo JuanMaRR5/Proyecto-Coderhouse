@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-coderhouse-copia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss scss/estilo.scss CSS/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanMaRR5/Proyecto-Coderhouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanMaRR5/Proyecto-Coderhouse/issues"
+  },
+  "homepage": "https://github.com/JuanMaRR5/Proyecto-Coderhouse#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

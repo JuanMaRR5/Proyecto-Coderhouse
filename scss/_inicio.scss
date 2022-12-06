@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+    .navbar{
+        .logo{
+            margin: 1;
+            padding: 1;
+            width: 6rem;
+        }
+        .titulo{
+            font-family: 'Courier New', Courier, monospace;
+        }
+    }
+
+    .main{
+      margin: 1;
+      background-color: black;
+     color: white;
+        display: grid;
+         grid-template-columns: 1fr 1fr
+         grid-template-rows 1fr 1fr 1fr 1fr ;
+        gap: 1rem;
+        
+        
+         grid-template-areas: 
+         "cajaA cajaB"
+         "cajaC cajaD"
+         "cajaE cajaF"
+         "cajaG cajaH";
+        .caja{
+            width: 15rem;
+        }
+    }
+
+    a:hover{
+         background-color: white;
+        }
+
+        .barman{
+            width: 20rem;
+            }
+            
+            .uptown{
+            width: 30rem;
+            }
+            
+            .presidente{
+            width: 30rem;
+            }
+
+            .tresm{
+                width: 30rem;
+                }
+
+                .footer{
+                    background-color: rgb(172, 81, 172);
+                    
+                    .redes{
+ 
+                         display: flex;
+                        flex-direction: row;
+                        justify-content: space-evenly;
+                        .insta{
+                            width: 4rem;
+                        }
+                        .face{
+                            width: 5rem;
+                        }
+                        .whats{
+                            width: 5rem;
+                        }
+                        }
+                    }  
+                    @media only screen and (max-width:500px) {  
+
+                        .logo{
+                            width: 4rem;
+                        }
+
+                        a:hover{
+                            background-color: white;
+                        }
+                            
+                        
+                        .historia{
+                         text-align: center;
+                        }
+                         
+                        main{
+                        display: grid;
+                         grid-template-columns: 2fr 
+                         grid-template-rows repeat(8, 1fr) ;
+                         gap: 1rem;
+                         
+                        
+                        grid-template-areas: 
+                         "cajaA"
+                        "cajaB"
+                         "cajaC"
+                         "cajaD"
+                         "cajaE"
+                         "cajaF"
+                         "cajaG"
+                         "cajaH" 
+                         ; 
+                         
+                        }
+                        
+                        .barman{
+                        
+                         width: 14rem;
+                         border: 1px white solid;
+                        }
+                        
+                        .uptown{
+                      
+                         width: 14rem;
+                         border: 1px white solid;
+                        }
+                        
+                        .tresm{
+                       
+                         width: 14rem;
+                         border: 1px white solid;
+                        }
+                        
+                        .presidente{
+                        
+                         width: 16rem;
+                         border: 1px white solid;
+                        }
+                    }
+                     

@@ -1,223 +1,76 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
+.navbar .logo {
+  margin: 1;
+  padding: 1;
+  width: 6rem; }
 
-.navbar .logo{
-   margin: 1;
-   padding: 1;
-   width: 6rem;
-}
+.navbar .titulo {
+  font-family: 'Courier New', Courier, monospace; }
 
- a:hover{
-    background-color: white;
-}
+.main {
+  margin: 1;
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr grid-template-rows 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  grid-template-areas: "cajaA cajaB" "cajaC cajaD" "cajaE cajaF" "cajaG cajaH"; }
+  .main .caja {
+    width: 15rem; }
 
-.caja{
-    width: 15rem;
-}
+a:hover {
+  background-color: white; }
 
-.titulo{
-    font-family: 'Courier New', Courier, monospace;
-}
+.barman {
+  width: 20rem; }
 
-.main{
-     
-    background-color: black;
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
-    gap: 1rem;
-    
+.uptown {
+  width: 30rem; }
 
-    grid-template-areas: 
-        "cajaA cajaB"
-        "cajaC cajaD"
-        "cajaE cajaF"
-        "cajaG cajaH";
-}
+.presidente {
+  width: 30rem; }
 
-main{
-    background-color: black;
-    
-    color: white;
-}
+.tresm {
+  width: 30rem; }
 
-
-.barman{
-    width: 20rem;
-}
-
-.uptown{
-    width: 30rem;
-}
-
-.presidente{
-    width: 30rem;
-}
-
-.tresm{
-    width: 30rem;
-}
-
-
-.footer{
-    background-color: rgb(172, 81, 172);
-}
-
-.footer1{
-    background-color:  rgb(185, 9, 9);
-}
-
-.footer2{
-    background-color: rgb(28, 207, 11);
-}
-
-.footer3{
-    background-color: rgb(219, 223, 14);
-}
-.footer4{
-    background-color: rgb(25, 61, 221);
-}
-
-.redes{
-    
+.footer {
+  background-color: #ac51ac; }
+  .footer .redes {
     display: flex;
-     flex-direction: row;
-     justify-content: space-evenly;
-}
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .footer .redes .insta {
+      width: 4rem; }
+    .footer .redes .face {
+      width: 5rem; }
+    .footer .redes .whats {
+      width: 5rem; }
 
-.insta{
-    width: 4rem;
-}
-.face{
-    width: 5rem;
-}
-.whats{
-    width: 5rem;
-}
-
-.fernet{
-    width: 32rem;
-}
-
-.gin{
-    width: 32rem;
-}
-
-.caipi{
-    width: 32rem;
-}
-
-.coctel1{
-    width: 28rem;
-    height: auto;
-    
-}
-
-.coctel2{
-    width: 45rem;
-}
-
-
-
-.ale{
-    width: 32rem;
-   margin: 2%;
-}
-
-.ipa{
-    width: 32rem;
-    margin: 2%;
-}
-
-.pcerveza {
-    margin: 1.5%;
-    
-}
-
-.form{
-    text-align: left;
-}
-
-.rango{
-    width: 28rem;
-}
-
-button:hover{
-    width: 8rem;
-    color: white;
-    background-color: blue;
-}
-
-@media only screen and (max-width:500px){
-     
-    .historia{
-        text-align: center;
-     }
-    
-main{
+@media only screen and (max-width: 500px) {
+  .logo {
+    width: 4rem; }
+  a:hover {
+    background-color: white; }
+  .historia {
+    text-align: center; }
+  main {
     display: grid;
-    grid-template-columns: 1fr 
-    grid-template-rows: repeat(8, 1fr) ;
+    grid-template-columns: 2fr grid-template-rows repeat(8, 1fr);
     gap: 1rem;
-    
-
-    grid-template-areas: 
-        "cajaA"
-        "cajaB"
-        "cajaC"
-        "cajaD"
-        "cajaE"
-        "cajaF"
-        "cajaG"
-        "cajaH" 
-        ;
-}
-
-     .barman{
-        align-content: center;
-        width: 16rem;
-        border: 1px white solid;
-     }
-
-     .uptown{
-        align-content: center;
-        width: 16rem;
-        border: 1px white solid;
-     }
-
-     .tresm{
-        align-content: center;
-        width: 16rem;
-        border: 1px white solid;
-     }
-
-     .presidente{
-        align-content: center;
-        width: 16rem;
-        border: 1px white solid;
-     }
-
-     .parrafo{
-        text-align: center;
-     }
-
-.form{
-    text-align: center;
-    padding: 3%;
-   
-}
-
-   .rango{
-    width: 20rem;
-   }
-     
-}
-
-
-
-
+    grid-template-areas: "cajaA" "cajaB" "cajaC" "cajaD" "cajaE" "cajaF" "cajaG" "cajaH"; }
+  .barman {
+    width: 14rem;
+    border: 1px white solid; }
+  .uptown {
+    width: 14rem;
+    border: 1px white solid; }
+  .tresm {
+    width: 14rem;
+    border: 1px white solid; }
+  .presidente {
+    width: 16rem;
+    border: 1px white solid; } }
