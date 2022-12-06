@@ -234,20 +234,6 @@ main {
   background-color: black;
   color: white; }
 
-.ale {
-  width: 26rem;
-  margin: 2%; }
-
-.ipa {
-  width: 33rem;
-  height: auto; }
-
-.ipa {
-  margin: 2%; }
-
-.pcerveza {
-  margin: 1.5%; }
-
 .footer3 {
   background-color: #dbdf0e; }
   .footer3 .redes {
@@ -312,19 +298,19 @@ button:hover {
   color: white;
   background-color: blue; }
 
-.footer {
+.footer4 {
   background-color: #4215e4; }
-  .footer .redes {
+  .footer4 .redes {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; }
-    .footer .redes .insta {
+    .footer4 .redes .insta {
       width: 4rem; }
-    .footer .redes .face {
+    .footer4 .redes .face {
       width: 5rem; }
-    .footer .redes .whats {
+    .footer4 .redes .whats {
       width: 5rem; }
-  .footer h5 {
+  .footer4 h5 {
     color: white; }
 
 @media only screen and (max-width: 500px) {

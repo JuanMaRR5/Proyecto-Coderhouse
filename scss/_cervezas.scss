@@ -24,12 +24,16 @@ $parrafo-margin: 1.5%;
        main{
         background-color: black; 
                 color: white;
-            .ale{
-            width: 26rem;
+       @mixin tamanio_de_imagenes ($ancho, $alto) {
+           width: $ancho;
+           height: $alto;
+            
+           .ale{
+            width: 28rem;
             margin: 2%;
          }
           .ipa {
-            @include tamanio_de_imagenes(33rem, auto )
+            @include tamanio_de_imagenes(32rem, auto )
             
          }
          .ipa{ margin: 2%;}
@@ -40,9 +44,6 @@ $parrafo-margin: 1.5%;
 
             }
 
-       @mixin tamanio_de_imagenes ($ancho, $alto) {
-           width: $ancho;
-           height: $alto;
          }
 
          
