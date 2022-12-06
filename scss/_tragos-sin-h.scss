@@ -1,0 +1,99 @@
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+    .navbar{
+        .logo{
+            margin: 1;
+            padding: 1;
+            width: 6rem;
+        }
+        .titulo{
+            font-family: 'Courier New', Courier, monospace;
+        }
+    }
+
+
+    .p-s-h {
+        margin: 2%;
+    }
+  .cocteles{
+    margin: 2%;
+     .coctel1{
+        width: 28rem;
+         height: auto;
+         
+        }
+        
+        .coctel2{
+        width: 45rem;
+        }
+  }
+
+  .footer2{
+    background-color: rgb(28, 207, 11);
+    .redes{
+ 
+        display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       .insta{
+           width: 4rem;
+       }
+       .face{
+           width: 5rem;
+       }
+       .whats{
+           width: 5rem;
+       }
+       }
+       h5{
+        color: white;
+       }
+  }
+  
+  @media only screen and (max-width: 500px){
+    .logo{
+        width: 4rem;
+    }
+    .p-s-h{
+        margin: 1%;
+        align-content: flex-start;
+    }
+    .cocteles{
+        margin: 1%;
+        .coctel1{
+            width: 20rem;
+            height: auto;
+        }
+        .coctel2{
+            width: 30rem;
+        }
+    }
+    .footer1{
+        background-color: rgb(4, 221, 15);
+        
+        .redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .insta{
+            width: 4;
+            }
+            .face{
+             width:4 ;
+            }
+            .whats{
+             width: 4;
+            }
+        }
+    }
+}
+
+

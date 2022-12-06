@@ -49,6 +49,8 @@ a:hover {
       width: 5rem; }
     .footer .redes .whats {
       width: 5rem; }
+  .footer h5 {
+    color: white; }
 
 @media only screen and (max-width: 500px) {
   .logo {
@@ -63,14 +65,154 @@ a:hover {
     gap: 1rem;
     grid-template-areas: "cajaA" "cajaB" "cajaC" "cajaD" "cajaE" "cajaF" "cajaG" "cajaH"; }
   .barman {
-    width: 14rem;
-    border: 1px white solid; }
+    width: 13rem;
+    border: 1px white solid;
+    margin: 1%; }
   .uptown {
     width: 14rem;
-    border: 1px white solid; }
+    border: 1px white solid;
+    margin: 1%; }
   .tresm {
     width: 14rem;
-    border: 1px white solid; }
+    border: 1px white solid;
+    margin: 1%; }
   .presidente {
     width: 16rem;
-    border: 1px white solid; } }
+    border: 1px white solid;
+    margin: 1%; } }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.navbar .logo {
+  margin: 1;
+  padding: 1;
+  width: 6rem; }
+
+.navbar .titulo {
+  font-family: 'Courier New', Courier, monospace; }
+
+main {
+  background-color: black;
+  color: white; }
+  main .fernet, main .gin, main .caipi {
+    width: 32rem;
+    margin: 2%; }
+  main .trago1, main .trago2, main .trago3 {
+    margin: 2.5%; }
+
+.footer1 {
+  background-color: #b90909; }
+  .footer1 .redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .footer1 .redes .insta {
+      width: 5rem; }
+    .footer1 .redes .face {
+      width: 5rem; }
+    .footer1 .redes .whats {
+      width: 5rem; }
+  .footer1 h5 {
+    color: white; }
+
+@media only screen and (max-width: 500px) {
+  .logo {
+    width: 4rem; }
+  .fernet, main .gin, main .caipi {
+    width: 24rem;
+    margin: 1.5%; }
+  .gin {
+    width: 24rem;
+    margin: 1.5%; }
+  .caipi {
+    width: 24rem;
+    margin: 1.5%; }
+  .trago1, main .trago2, main .trago3 {
+    margin: 1.5%;
+    align-content: flex-start; }
+  .trago2 {
+    margin: 1.5%;
+    align-content: flex-start; }
+  .trago3 {
+    margin: 1.5%;
+    align-content: flex-start; }
+  .footer1 {
+    background-color: #ff2a2a; }
+    .footer1 .redes {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; }
+      .footer1 .redes .insta {
+        width: 4; }
+      .footer1 .redes .face {
+        width: 4; }
+      .footer1 .redes .whats {
+        width: 4; } }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.navbar .logo {
+  margin: 1;
+  padding: 1;
+  width: 6rem; }
+
+.navbar .titulo {
+  font-family: 'Courier New', Courier, monospace; }
+
+.p-s-h {
+  margin: 2%; }
+
+.cocteles {
+  margin: 2%; }
+  .cocteles .coctel1 {
+    width: 28rem;
+    height: auto; }
+  .cocteles .coctel2 {
+    width: 45rem; }
+
+.footer2 {
+  background-color: #1ccf0b; }
+  .footer2 .redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .footer2 .redes .insta {
+      width: 4rem; }
+    .footer2 .redes .face {
+      width: 5rem; }
+    .footer2 .redes .whats {
+      width: 5rem; }
+  .footer2 h5 {
+    color: white; }
+
+@media only screen and (max-width: 500px) {
+  .logo {
+    width: 4rem; }
+  .p-s-h {
+    margin: 1%;
+    align-content: flex-start; }
+  .cocteles {
+    margin: 1%; }
+    .cocteles .coctel1 {
+      width: 20rem;
+      height: auto; }
+    .cocteles .coctel2 {
+      width: 30rem; }
+  .footer1 {
+    background-color: #04dd0f; }
+    .footer1 .redes {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; }
+      .footer1 .redes .insta {
+        width: 4; }
+      .footer1 .redes .face {
+        width: 4; }
+      .footer1 .redes .whats {
+        width: 4; } }
