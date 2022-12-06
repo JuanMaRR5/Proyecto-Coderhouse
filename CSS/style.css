@@ -216,3 +216,120 @@ main {
         width: 4; }
       .footer1 .redes .whats {
         width: 4; } }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.navbar .logo {
+  margin: 1;
+  padding: 1;
+  width: 6rem; }
+
+.navbar .titulo {
+  font-family: 'Courier New', Courier, monospace; }
+
+main {
+  background-color: black;
+  color: white; }
+
+.ale {
+  width: 33rem;
+  margin: 2%; }
+
+.ipa {
+  width: 33rem;
+  height: auto; }
+
+.ipa {
+  margin: 2%; }
+
+.pcerveza {
+  margin: 1.5%; }
+
+.footer3 {
+  background-color: #dbdf0e; }
+  .footer3 .redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .footer3 .redes .insta {
+      width: 5rem; }
+    .footer3 .redes .face {
+      width: 5rem; }
+    .footer3 .redes .whats {
+      width: 5rem; }
+  .footer3 h5 {
+    color: white; }
+
+@media only screen and (max-width: 500px) {
+  .logo {
+    width: 4rem; }
+  .ale {
+    width: 24;
+    height: auto; }
+  .ipa {
+    width: 24rem;
+    height: auto; }
+  .pcerveza {
+    align-content: flex-start;
+    margin: 1%; }
+  .footer3 {
+    background-color: #b0b304; }
+    .footer3 .redes {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; }
+      .footer3 .redes .insta {
+        width: 4; }
+      .footer3 .redes .face {
+        width: 4; }
+      .footer3 .redes .whats {
+        width: 4; } }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.navbar .logo {
+  margin: 1;
+  padding: 1;
+  width: 6rem; }
+
+.navbar .titulo {
+  font-family: 'Courier New', Courier, monospace; }
+
+.form {
+  text-align: left; }
+
+.rango {
+  width: 28rem; }
+
+button:hover {
+  width: 8rem;
+  color: white;
+  background-color: blue; }
+
+.footer {
+  background-color: #4215e4; }
+  .footer .redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .footer .redes .insta {
+      width: 4rem; }
+    .footer .redes .face {
+      width: 5rem; }
+    .footer .redes .whats {
+      width: 5rem; }
+  .footer h5 {
+    color: white; }
+
+@media only screen and (max-width: 500px) {
+  .form {
+    text-align: center;
+    padding: 3%; }
+  .rango {
+    width: 20rem; } }

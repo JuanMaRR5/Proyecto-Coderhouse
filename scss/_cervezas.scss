@@ -1,3 +1,104 @@
 $footer3: rgb(219, 223, 14);
-$tamanio-cervezas: 32rem;
 $parrafo-margin: 1.5%;
+// variables a usar con el footer y los parrafos
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+       }
+
+
+   //header
+       .navbar{
+           .logo{
+               margin: 1;
+               padding: 1;
+               width: 6rem;
+           }
+           .titulo{
+               font-family: 'Courier New', Courier, monospace;
+           }
+       }
+
+       //main
+       main{
+        background-color: black; 
+                color: white;}
+
+       @mixin tamanio_de_imagenes ($ancho, $alto) {
+           width: $ancho;
+           height: $alto;
+         }
+
+         .ale{
+            width: 33rem;
+            margin: 2%;
+         }
+          .ipa {
+            @include tamanio_de_imagenes(33rem, auto )
+            
+         }
+         .ipa{ margin: 2%;}
+
+         .pcerveza{
+            margin: $parrafo-margin;
+         }
+
+         .footer3{
+            background-color: $footer3;
+            
+            .redes{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            .insta{
+                width: $tamanio-redes;
+                }
+                .face{
+                 width: $tamanio-redes;
+                }
+                .whats{
+                 width: $tamanio-redes;
+                }
+            }
+            h5{
+                color: white;
+            }
+         }
+
+        @media only screen and (max-width: 500px) {
+            .logo{
+                width: 4rem;
+            }
+            .ale{
+                width: 24;
+                height: auto;
+            }
+            .ipa{
+                width: 24rem;
+                height: auto;
+            }
+            .pcerveza {
+                align-content: flex-start;
+                margin: 1%;
+            }
+
+            .footer3{
+                background-color: rgb(176, 179, 4);
+                
+                .redes{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                .insta{
+                    width: 4;
+                    }
+                    .face{
+                     width:4 ;
+                    }
+                    .whats{
+                     width: 4;
+                    }
+                }
+             }
+        }
