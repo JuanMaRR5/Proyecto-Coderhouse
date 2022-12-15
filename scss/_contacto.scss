@@ -15,11 +15,13 @@
         }
     }
 
-    .form{
-        text-align: left;
-        }
-        
-        .rango{
+    .descripcion{
+        font-size: 1.4rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+
+    .rango{
          width: 28rem;
         }
         
@@ -30,7 +32,7 @@
         }
 
         .footer4{
-            background-color: rgb(66, 21, 228);
+            background-color: rgb(46, 112, 211);
             
             .redes{
 
@@ -38,7 +40,7 @@
                 flex-direction: row;
                 justify-content: space-evenly;
                 .insta{
-                    width: 4rem;
+                    width: 5rem;
                 }
                 .face{
                     width: 5rem;

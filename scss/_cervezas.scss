@@ -1,5 +1,5 @@
 $footer3: rgb(219, 223, 14);
-$parrafo-margin: 1.5%;
+$parrafo-margin: 2%;
 // variables a usar con el footer y los parrafos
 *{
     padding: 0;
@@ -24,30 +24,27 @@ $parrafo-margin: 1.5%;
        main{
         background-color: black; 
                 color: white;
-       @mixin tamanio_de_imagenes ($ancho, $alto) {
-           width: $ancho;
-           height: $alto;
-            
-           .ale{
-            width: 28rem;
-            margin: 2%;
-         }
-          .ipa {
-            @include tamanio_de_imagenes(32rem, auto )
-            
-         }
-         .ipa{ margin: 2%;}
+      
+           
 
-         .pcerveza{
+           .ale{
+            width: 33rem;
+            margin: 2%; 
+             
+        }
+         .ipa{ width: 35rem;
+            margin: 2%;} 
+
+            .pcerveza{
             margin: $parrafo-margin;
          }
-
-            }
-
-         }
-
          
-         .footer3{
+            
+         }
+        
+        
+        
+             .footer3{
             background-color: $footer3;
             
             .redes{
@@ -74,16 +71,16 @@ $parrafo-margin: 1.5%;
                 width: 4rem;
             }
             .ale{
-                width: 24;
-                height: auto;
+                width: 12rem;
+                margin: 0%;
             }
             .ipa{
-                width: 24rem;
-                height: auto;
+                width: 15rem;
+               margin: 0%;
             }
             .pcerveza {
-                align-content: flex-start;
-                margin: 1%;
+                text-align: start;
+                
             }
 
             .footer3{

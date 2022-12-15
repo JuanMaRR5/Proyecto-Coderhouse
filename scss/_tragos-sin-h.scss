@@ -37,14 +37,14 @@
   }
 
   .footer2{
-    background-color: rgb(28, 207, 11);
+    background-color: rgb(42, 231, 25);
     .redes{
  
         display: flex;
        flex-direction: row;
        justify-content: space-evenly;
        .insta{
-           width: 4rem;
+           width: 5rem;
        }
        .face{
            width: 5rem;
@@ -77,20 +77,20 @@
         }
     }
     .footer1{
-        background-color: rgb(4, 221, 15);
+        background-color: rgb(28, 231, 38);
         
         .redes{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         .insta{
-            width: 4;
+            width: 4rem;
             }
             .face{
-             width:4 ;
+             width:4rem ;
             }
             .whats{
-             width: 4;
+             width: 4rem;
             }
         }
     }

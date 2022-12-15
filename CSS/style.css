@@ -44,7 +44,7 @@ a:hover {
     flex-direction: row;
     justify-content: space-evenly; }
     .footer .redes .insta {
-      width: 4rem; }
+      width: 5rem; }
     .footer .redes .face {
       width: 5rem; }
     .footer .redes .whats {
@@ -177,13 +177,13 @@ main {
     width: 45rem; }
 
 .footer2 {
-  background-color: #1ccf0b; }
+  background-color: #2ae719; }
   .footer2 .redes {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; }
     .footer2 .redes .insta {
-      width: 4rem; }
+      width: 5rem; }
     .footer2 .redes .face {
       width: 5rem; }
     .footer2 .redes .whats {
@@ -205,17 +205,17 @@ main {
     .cocteles .coctel2 {
       width: 30rem; }
   .footer1 {
-    background-color: #04dd0f; }
+    background-color: #1ce726; }
     .footer1 .redes {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly; }
       .footer1 .redes .insta {
-        width: 4; }
+        width: 4rem; }
       .footer1 .redes .face {
-        width: 4; }
+        width: 4rem; }
       .footer1 .redes .whats {
-        width: 4; } }
+        width: 4rem; } }
 
 * {
   padding: 0;
@@ -233,6 +233,14 @@ main {
 main {
   background-color: black;
   color: white; }
+  main .ale {
+    width: 33rem;
+    margin: 2%; }
+  main .ipa {
+    width: 35rem;
+    margin: 2%; }
+  main .pcerveza {
+    margin: 2%; }
 
 .footer3 {
   background-color: #dbdf0e; }
@@ -253,14 +261,13 @@ main {
   .logo {
     width: 4rem; }
   .ale {
-    width: 24;
-    height: auto; }
+    width: 12rem;
+    margin: 0%; }
   .ipa {
-    width: 24rem;
-    height: auto; }
+    width: 15rem;
+    margin: 0%; }
   .pcerveza {
-    align-content: flex-start;
-    margin: 1%; }
+    text-align: start; }
   .footer3 {
     background-color: #b0b304; }
     .footer3 .redes {
@@ -287,8 +294,9 @@ main {
 .navbar .titulo {
   font-family: 'Courier New', Courier, monospace; }
 
-.form {
-  text-align: left; }
+.descripcion {
+  font-size: 1.4rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 .rango {
   width: 28rem; }
@@ -299,13 +307,13 @@ button:hover {
   background-color: blue; }
 
 .footer4 {
-  background-color: #4215e4; }
+  background-color: #2e70d3; }
   .footer4 .redes {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; }
     .footer4 .redes .insta {
-      width: 4rem; }
+      width: 5rem; }
     .footer4 .redes .face {
       width: 5rem; }
     .footer4 .redes .whats {
