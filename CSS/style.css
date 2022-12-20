@@ -103,54 +103,53 @@ main {
   main .trago1, main .trago2, main .trago3 {
     margin: 2.5%; }
 
-.footer1 {
+.footer1-0 {
   background-color: #b90909; }
-  .footer1 .redes {
+  .footer1-0 .redes {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; }
-    .footer1 .redes .insta {
+    .footer1-0 .redes .insta {
       width: 5rem; }
-    .footer1 .redes .face {
+    .footer1-0 .redes .face {
       width: 5rem; }
-    .footer1 .redes .whats {
+    .footer1-0 .redes .whats {
       width: 5rem; }
-  .footer1 h5 {
+  .footer1-0 h5 {
     color: white; }
 
 @media only screen and (max-width: 500px) {
   .logo {
     width: 4rem; }
-  .fernet, main .gin, main .caipi {
-    width: 24rem;
+  .t-principal {
+    font-size: 190%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center; }
+  .ferne {
+    width: 70%;
     margin: 1.5%; }
-  .gin {
-    width: 24rem;
+  .ginn {
+    width: 70%;
     margin: 1.5%; }
-  .caipi {
-    width: 24rem;
+  .caip {
+    width: 70%;
     margin: 1.5%; }
-  .trago1, main .trago2, main .trago3 {
-    margin: 1.5%;
-    align-content: flex-start; }
-  .trago2 {
-    margin: 1.5%;
-    align-content: flex-start; }
-  .trago3 {
-    margin: 1.5%;
-    align-content: flex-start; }
-  .footer1 {
-    background-color: #ff2a2a; }
-    .footer1 .redes {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly; }
-      .footer1 .redes .insta {
-        width: 4; }
-      .footer1 .redes .face {
-        width: 4; }
-      .footer1 .redes .whats {
-        width: 4; } }
+  .trago {
+    width: 50%;
+    text-align: center; } }
+
+.footer1 {
+  background-color: red; }
+  .footer1 .redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .footer1 .redes .insta {
+      width: 4; }
+    .footer1 .redes .face {
+      width: 4; }
+    .footer1 .redes .whats {
+      width: 4; }
 
 * {
   padding: 0;
@@ -168,13 +167,22 @@ main {
 .p-s-h {
   margin: 2%; }
 
-.cocteles {
+.tprincipal {
+  font-size: 230%;
+  text-align: center;
+  padding: 1%; }
+
+.coctel1 {
+  width: 31%;
+  height: auto;
+  margin: 1.5%; }
+
+.coctel2-0 {
+  width: 40%;
+  margin: 1.5%; }
+
+.iyp {
   margin: 2%; }
-  .cocteles .coctel1 {
-    width: 28rem;
-    height: auto; }
-  .cocteles .coctel2 {
-    width: 45rem; }
 
 .footer2 {
   background-color: #2ae719; }
@@ -197,13 +205,17 @@ main {
   .p-s-h {
     margin: 1%;
     align-content: flex-start; }
-  .cocteles {
+  .tprincipal {
+    text-align: center;
+    font-size: 190%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  .coctel1 {
+    width: 60%;
+    height: auto; }
+  .coctel2-0 {
+    width: 76%; }
+  .iyp {
     margin: 1%; }
-    .cocteles .coctel1 {
-      width: 20rem;
-      height: auto; }
-    .cocteles .coctel2 {
-      width: 30rem; }
   .footer1 {
     background-color: #1ce726; }
     .footer1 .redes {
@@ -233,14 +245,18 @@ main {
 main {
   background-color: black;
   color: white; }
-  main .ale {
-    width: 33rem;
+  main .tprincipal {
+    text-align: center;
+    font-size: 220%; }
+  main .alee {
+    width: 40%;
     margin: 2%; }
-  main .ipa {
-    width: 35rem;
+  main .ipaa {
+    width: 54%;
     margin: 2%; }
-  main .pcerveza {
-    margin: 2%; }
+  main .cale {
+    width: 70%;
+    margin: 1%; }
 
 .footer3 {
   background-color: #dbdf0e; }
@@ -261,13 +277,12 @@ main {
   .logo {
     width: 4rem; }
   .ale {
-    width: 12rem;
-    margin: 0%; }
-  .ipa {
-    width: 15rem;
-    margin: 0%; }
-  .pcerveza {
-    text-align: start; }
+    width: 40%; }
+  .ipaa {
+    width: 50%; }
+  .cale {
+    width: 50%;
+    text-align: center; }
   .footer3 {
     background-color: #b0b304; }
     .footer3 .redes {

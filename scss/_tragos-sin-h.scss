@@ -23,18 +23,31 @@
     .p-s-h {
         margin: 2%;
     }
-  .cocteles{
-    margin: 2%;
+
+    .tprincipal{
+        font-size: 230%;
+        text-align: center;
+       
+        padding: 1%;
+    }
+ 
+    
      .coctel1{
-        width: 28rem;
+        width: 31%;
          height: auto;
+         margin: 1.5%;
          
         }
         
-        .coctel2{
-        width: 45rem;
+        .coctel2-0{
+        width: 40%;
+        margin: 1.5%;
         }
-  }
+
+        .iyp{
+            margin: 2%;
+        }
+  
 
   .footer2{
     background-color: rgb(42, 231, 25);
@@ -66,16 +79,25 @@
         margin: 1%;
         align-content: flex-start;
     }
-    .cocteles{
-        margin: 1%;
+
+     
+    .tprincipal{
+                text-align: center;
+                font-size: 190%;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+        
         .coctel1{
-            width: 20rem;
+            width: 60%;
             height: auto;
         }
-        .coctel2{
-            width: 30rem;
+        .coctel2-0{
+            width: 76%;
         }
-    }
+        .iyp{
+            margin: 1%;
+        }
+    
     .footer1{
         background-color: rgb(28, 231, 38);
         

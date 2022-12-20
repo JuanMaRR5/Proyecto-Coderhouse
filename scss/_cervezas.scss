@@ -1,5 +1,5 @@
 $footer3: rgb(219, 223, 14);
-$parrafo-margin: 2%;
+$parrafo-margin: 1%;
 // variables a usar con el footer y los parrafos
 *{
     padding: 0;
@@ -25,19 +25,23 @@ $parrafo-margin: 2%;
         background-color: black; 
                 color: white;
       
-           
-
-           .ale{
-            width: 33rem;
-            margin: 2%; 
-             
+        .tprincipal{
+            text-align: center;
+            font-size: 220%;
         }
-         .ipa{ width: 35rem;
+
+        .alee{
+            width: 40%;
+            margin: 2%;  }
+
+         .ipaa{ width: 54%;
             margin: 2%;} 
 
-            .pcerveza{
-            margin: $parrafo-margin;
-         }
+          
+         .cale{
+            width: 70%;
+            margin: 1%;
+             }
          
             
          }
@@ -71,16 +75,18 @@ $parrafo-margin: 2%;
                 width: 4rem;
             }
             .ale{
-                width: 12rem;
-                margin: 0%;
-            }
-            .ipa{
-                width: 15rem;
-               margin: 0%;
-            }
-            .pcerveza {
-                text-align: start;
+                width: 40%;
                 
+                
+            }
+            
+            .ipaa{
+                width: 50%;
+            }
+            
+            .cale{
+                width: 50%;
+                text-align: center;
             }
 
             .footer3{

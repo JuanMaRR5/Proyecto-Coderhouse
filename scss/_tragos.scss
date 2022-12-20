@@ -47,7 +47,7 @@ $tamanio-redes: 5rem;
             }
          }
 
-         .footer1{
+         .footer1-0{
             background-color: $footer1;
             
             .redes{
@@ -75,37 +75,39 @@ $tamanio-redes: 5rem;
         .logo{
             width: 4rem;
         }
+
+        .t-principal{
+            font-size: 190%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
     
-        .fernet{
-            width: 24rem;
+        .ferne{
+            width: 70%;
             margin: 1.5%;
+          
         }
-        .gin{
-            width: 24rem;
+        .ginn{
+            width: 70%;
             margin: 1.5%;
-        }
-        .caipi{
-            width: 24rem;
-            margin: 1.5%;
-        }
-
-        .trago1{
-            margin: 1.5%;
-            align-content: flex-start;
-        }
-        .trago2{
-            margin:1.5%;
-            align-content: flex-start;
-           }
-           .trago3 {
-            margin: 1.5%;
-            align-content: flex-start;
-           }
-
-           .footer1{
-            background-color: rgb(255, 42, 42);
             
-            .redes{
+        }
+        .caip{
+            width: 70%;
+            margin: 1.5%;
+           
+        }
+
+        .trago{
+            width: 50%;
+            text-align: center;
+            
+        }
+        
+           }
+             .footer1{
+                background-color: red;
+                .redes{
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
@@ -119,6 +121,8 @@ $tamanio-redes: 5rem;
                  width: 4;
                 }
             }
-         }
+             }
+            
+         
         
-    }
+    
