@@ -97,8 +97,12 @@ a:hover {
 main {
   background-color: black;
   color: white; }
-  main .fernet, main .gin, main .caipi {
-    width: 32rem;
+  main .t-principal {
+    text-align: center;
+    font-size: 220%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  main .ferne, main .ginn, main .caip {
+    width: 50%;
     margin: 2%; }
   main .trago1, main .trago2, main .trago3 {
     margin: 2.5%; }
@@ -125,7 +129,7 @@ main {
     font-size: 190%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center; }
-  .ferne {
+  .ferne, main .ginn, main .caip {
     width: 70%;
     margin: 1.5%; }
   .ginn {
